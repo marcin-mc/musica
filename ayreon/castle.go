@@ -16,6 +16,6 @@ func (c *Castle) GetGuests() []string {
 	return c.guests
 }
 
-//func (c *Castle) GetTraps() string {
-//	return "Many traps there!"
-//}
+func (c *Castle) GetTraps() string {
+	return "Many traps there!"
+}
